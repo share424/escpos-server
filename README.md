@@ -3,7 +3,7 @@ This is a simple ESCPos Server written in [NodeJS](https://nodejs.org). This pro
 
 # How to use
 1. Download the compiled server on the release page (Currently available on Windows, you can compile the server by yourself)
-2. Install the usb adapter (Please refer to [this](https://github.com/share424/ecspos-server#how-to-install-the-usb-adapter) section)
+2. Install the usb adapter (Please refer to [this](https://github.com/share424/escpos-server#how-to-install-the-usb-adapter) section)
 3. Open the `ESCPos.exe`
 4. Set your port (default `3000`)
 5. Click `Start Server` button
@@ -50,4 +50,12 @@ Example Commands:
 if you have any trouble or issue, please refer to the [Zadig](https://zadig.akeo.ie/) site
 
 # Example
-you can try the example [here](https://github.com/share424/ecspos-server/blob/master/example)
+you can try the example [here](https://github.com/share424/escpos-server/blob/master/example)
+
+# How to build your own server
+1. Install [NodeJs](https://nodejs.org) (I'm using version `12`)
+2. Install the dependencies `npm install` or `yarn install`
+3. Run `npm run make`
+4. Check the `out` directory, your binary files will be there
+
+this project use [ElectronJS](https://electronjs.org) to create the GUI

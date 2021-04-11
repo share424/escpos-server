@@ -1,5 +1,5 @@
 # ESCPos Server Example
-In this example, you will send `text` command to the `ESCPos` server and print `Hello World`. I create a little wrapper library (escpos.js)[https://github.com/share424/ecspos-server/blob/master/example/escpos.js] to make your life easier
+In this example, you will send `text` command to the `ESCPos` server and print `Hello World`. I create a little wrapper library (escpos.js)[https://github.com/share424/escpos-server/blob/master/example/escpos.js] to make your life easier
 
 # How to use?
 ```
