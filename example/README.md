@@ -2,7 +2,7 @@
 In this example, you will send `text` command to the `ESCPos` server using AJAX and print `Hello World`. I create a little wrapper library [escpos.js](https://github.com/share424/escpos-server/blob/master/example/escpos.js) to make your life easier
 
 # How to use?
-```(javascript)
+```javascript
 // create new ESCPos and set the server location and the print options
 // Please refer to https://www.npmjs.com/package/escpos for more information about the options
 const escpos = new ESCPos("http://localhost:3000", {
