@@ -11,7 +11,7 @@ This is a simple ESCPos Server written in [NodeJS](https://nodejs.org). This pro
 7. Now you can send http post request to the server to execute node-escpos [commands](https://www.npmjs.com/package/escpos#methods)
 
 Example Commands:
-```
+```json
 {
     "commands": [
         {
