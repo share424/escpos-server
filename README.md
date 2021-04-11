@@ -4,7 +4,7 @@ This is a simple ESCPos Server written in [NodeJS](https://nodejs.org). This pro
 # How to use
 1. Download the compiled server on the release page (Currently available on Windows, you can compile the server by yourself)
 2. Install the usb adapter (Please refer to [this](https://github.com/share424/escpos-server#how-to-install-the-usb-adapter) section)
-3. Open the `ESCPos.exe`
+3. Open the `escpos-server.exe`
 4. Set your port (default `3000`)
 5. Click `Start Server` button
 6. Wait until the server started
