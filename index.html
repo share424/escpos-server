@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ECSPOS Server</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body style="background: white;">
+    <div class="container">
+        <div class="mb-3 mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Server Configuration</h4>
+                    <div class="form-group">
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                <label for="port">Port</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="number" class="form-control form-control-sm" value="3000" id="port">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                
+                            </div>
+                            <div class="col-5">
+                                <button id="btn-start-server" class="btn btn-primary">Start Server</button>
+                                <button id="btn-test" class="btn btn-success">Test Print</button>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="log">Log</label>
+                            <textarea readonly class="form-control" name="log" id="log" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        
+        
+    </script>
+</body>
+</html>
